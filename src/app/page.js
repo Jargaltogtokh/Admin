@@ -3,20 +3,16 @@
 import Image from "next/image";
 import "./style.css";
 import { useState } from "react";
+import USERSDATA from "./usersData.json";
+import { userAgent } from "next/server";
+import { UserCard } from "./card";
 
-const MyButton = () => {
-  return <button> Click </button>;
-};
 export default function Home() {
-  const [count, setCount] = useState(0);
-
-  const handleClick = () => {
-    setCount(count + 1);
-  };
   return (
-    <div>
-      {count}
-      <button onclick={handleClick}> Click </button>
+    <div className="grid grid-cols-3 gap-4">
+      {USERSDATA.map((user) => (
+        <UserCard user={user} />
+      ))}
     </div>
   );
 }

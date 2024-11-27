@@ -1,6 +1,20 @@
-style={{
-        border: "solid 1px black",
-        borderRadius: 8,
-        minWidth: 128,
-        height: 48,
-      }}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rosybrown;
+  color: black;
+}
+.title {
+  margin-left: 27px;
+}
+.card {
+  width: 336px;
+  height: 192px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
