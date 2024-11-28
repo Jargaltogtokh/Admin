@@ -18,3 +18,92 @@ body {
   justify-content: space-between;
   margin-top: 10px;
 }
+.name {
+  display: flex;
+  gap: 4px;
+  margin-top: 25px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.firstName {
+  color: blue;
+}
+.lastName {
+  color: orange;
+}
+.infoContainer {
+  width: 120px;
+  height: 50px;
+  margin-top: 62.44px;
+  margin-left: 25.87px;
+  font-size: 8px;
+}
+.phone {
+  background-image: url(phone.png);
+  width: 8.33px;
+  height: 8.33px;
+  background-size: cover;
+  background-position: center;
+}
+.mail {
+  background-image: url(email.png);
+  width: 8.33px;
+  height: 8.33px;
+  background-size: cover;
+  background-position: center;
+}
+.address {
+  background-image: url(address.png);
+  width: 8.33px;
+  height: 8.33px;
+  background-size: cover;
+  background-position: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.rightPhoto {
+  background-image: url(right.png);
+  background-size: 100%;
+  background-size: center;
+  width: 163px;
+  height: 192px;
+  border-radius: 0 10px 0 10px;
+}
+.photo {
+  width: 8.33px;
+  height: 8.33px;
+  background-size: cover;
+  background-position: center;
+}
+.companyName {
+  color: white;
+  margin-top: 10px;
+  margin-left: 70px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.logoPhoto {
+  background-image: url(Logo.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 25px;
+  margin-left: 77px;
+  width: 30px;
+  height: 30px;
+}
+.qrcode {
+  background-image: url(QR\ Code.png);
+  background-size: cover;
+  background-position: center;
+  width: 42px;
+  height: 42px;
+  margin-top: 25px;
+  margin-left: 77px;
+}
